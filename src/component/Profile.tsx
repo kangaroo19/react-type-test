@@ -18,6 +18,9 @@ export function Profile({job,name,age}:Iprops){
             <div>
                 <b>직업 : { job }</b>
             </div>
+            <div>
+                <b>나이 : { age }</b>
+            </div>
         </div>
     )
 }

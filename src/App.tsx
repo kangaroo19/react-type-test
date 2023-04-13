@@ -2,10 +2,12 @@
 
 import { useState } from "react";
 import { Profile } from "./component/Profile";
+import { Counter } from "./component/Counter";
 function App() {
   return (
    <div>
-      <Profile name='name' job='job' age={25} />
+      <Profile name='재현' job='무직백수' age={25} />
+      <Counter/>
    </div>
   );
 }
