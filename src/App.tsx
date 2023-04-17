@@ -2,10 +2,12 @@
 
 import { useState } from "react";
 import LoginForm from "./LoginForm";
+import { Uncontorolled } from "./Uncontrolled";
 function App() {
   return (
    <div>
       <LoginForm/>
+      <Uncontorolled/>
    </div>
   );
 }
