@@ -3,11 +3,11 @@
 import { useState } from "react";
 import LoginForm from "./LoginForm";
 import { Uncontorolled } from "./Uncontrolled";
+import './css/KakaoLogin.css'
 function App() {
   return (
    <div>
       <LoginForm/>
-      <Uncontorolled/>
    </div>
   );
 }
